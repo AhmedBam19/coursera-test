@@ -1,9 +1,92 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>hello coursera!</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assignment Solution for Module 2 </title>
+<style>
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+p{
+  border: 1px solid black;
+  padding: 50px 30px 10px 10px;
+  background-color: gray;
+  width: 90%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  color: black;
+}
+
+h2 {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 100%;
+    position:absolute;
+    float:right;
+    padding:15px;
+    margin-right:10px;
+    margin-bottom:5px;
+    width:auto;
+    height:0px;
+}
+
+.Rectangle{
+    border: 1px solid black;
+    background-color: gray;
+    padding: 15px;
+    position:relative;
+    margin-left:10px;
+    margin-right:20px;
+    margin-top:16px; 
+    margin-bottom:0px;
+    text-align: justify;
+    min-width: 30px;
+    min-height:10px;
+}
+
+/* Simple Responsive Framework. */
+  .row {
+    width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col {
+  	float: left;
+    width: 33.33%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col {
+  	float: left;
+    width: 50%;
+  }
+  .col1 {
+    width: 100%;
+  }
+}
+
+</style>
 </head>
 <body>
-<h1>hello coursera! yo</h1>
+<h1>Our Menu</h1>
+
+<div class="row">
+  <div class="col"><h2 class="Rectangle">Chicken</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+  <div class="col"><h2 class="Rectangle">Beef</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+  <div class="col col1"><h2 class="Rectangle">Sushi</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+</div>
+
 </body>
 </html>

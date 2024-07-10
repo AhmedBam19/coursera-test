@@ -1,0 +1,42 @@
+          .highlight{
+			background-color: green;
+		}
+		 p{
+			font-size: 130%;
+			background-color: gray;
+			color: white;
+		}
+		 .highlight.mainpoint {
+			color: red;
+			background-color: black;
+			text-align: 
+		}
+         header li{
+         	list-style: none;
+         }
+         a:link, a:visited{
+            text-decoration: none;
+            background-color: green;
+            border: 1px solid blue;
+            color: black;
+            display: black;
+            width: 200px
+            text-align: center;
+            margin-bottom: 1px
+         }
+         a:hover, a:active{
+         background-color: blue;
+         color: black;	
+         }
+         header li:nth-chiled(3){
+         	font-size: 24px;
+         }
+         section div:nth-child(odd){
+         	background-color: gray;
+         }
+         section div:nth-child(4):hover{
+         	background-color: red;
+         	cursor: pointer;
+         }
+
+	
