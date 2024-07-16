@@ -23,6 +23,9 @@ h2{
 	text-shadow: 0px 3px 3px  blue;
 	position: relative;
 }
+h3{
+	text-align: center;
+}
 #nav-list a {
   text-align: center;
 }
@@ -34,19 +37,18 @@ h2{
 }
 #collapsable-nav a { 
     font-size: 1.2em;
-     }
-     .navbar-collapse.in{
+}
+.navbar-collapse.in{
      	overflow-y=auto;
-     }
-   .collapse.in{
+}
+ .collapse.in{
    	 display:block;
-   	    }
+}
   #collapsable-nav a span { 
     font-size: 1em;
     margin-right: 5px;
-  }
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar
-{
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
 	border: 1px solid yellow;
 }
 .navbar-header button.navbar-toggle:hover, .navbar-header .icon-bar:hover {
